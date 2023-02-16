@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply text-gray-100 pb-1 font-bold text-xs tracking-widest uppercase;
+}
+.p {
+  @apply font-bold text-2xl text-gray-200 tracking-wide;
+}
+.container {
+  @apply mb-1 lg:border-r-2 lg:border-gray-200 lg:pr-5 lg:border-opacity-5;
+}
+.test-data {
+  @apply flex items-center justify-center;
+}
+.svg {
+  @apply w-3 ml-2;
+}
+.popup{
+  @apply mt-3 absolute left-3.5 bottom-20 bg-white drop-shadow-md p-3 rounded-sm text-center w-2/12;
+}
