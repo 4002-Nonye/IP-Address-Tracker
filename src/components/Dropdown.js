@@ -26,7 +26,7 @@ const Dropdown = ({ testIP, randomIp }) => {
   //RETURN JSX FOR DROPDOWN
   return (
     <div className="hidden xl:flex">
-      <div className="flex text-center flex-col absolute left-3.5 top-4 p-3 rounded-md bg-white drop-shadow-md cursor-pointer w-2/12 ">
+      <div className={"flex text-center flex-col absolute left-3.5 top-4 p-3 rounded-md bg-white drop-shadow-md cursor-pointer w-2/12 "}>
         <p
           className="text-black text-xl relative"
           onClick={() => {
@@ -39,13 +39,13 @@ const Dropdown = ({ testIP, randomIp }) => {
         </p>
         {/* DATA */}
       </div>
-      <div className={open ? "popup" : "popup hidden"}>
+      <div className={open ? "popup" : "popup hidden "}>
         <div className="test-data ">
           <div>
-            <p className="data">{ip}</p>
+            <p className="data text-lg font-semibold">{ip}</p>
           </div>
           <div
-            className="flex flex-row items-center justify-center cursor-pointer gap-1"
+            className="flex flex-row items-center justify-center cursor-pointer gap-1 bg-black text-cyan-500 ml-2 p-1 rounded-md w-4/12"
             onClick={copyToClipboard}
           >
             <svg
