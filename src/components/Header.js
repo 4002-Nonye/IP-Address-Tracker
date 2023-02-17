@@ -39,7 +39,7 @@ const Header = () => {
           onSearch={fetchData}
          
         />
-        <Results  fetchedData={fetchedData}/>
+        <Results/>
       </header>
     </>
   );
